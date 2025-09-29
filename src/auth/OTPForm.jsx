@@ -13,7 +13,7 @@ const OTPForm = () => {
       setEmail(user.email);
     } else {
       toast.error("No user found. Redirecting to login...");
-      navigate("/");
+      navigate("/dashboard");
     }
   }, [navigate]);
 
