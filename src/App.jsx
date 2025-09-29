@@ -13,7 +13,7 @@ function App() {
       <Toaster position="top-right" />
       <Routes>
         <Route
-          path="/login"
+          path="/"
           element={
             <RestrictedRoute>
               <Login />

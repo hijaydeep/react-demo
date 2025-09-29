@@ -1,4 +1,3 @@
-import React from "react";
 import { Navigate } from "react-router-dom";
 
 const PrivateRoute = ({ children }) => {
@@ -6,7 +5,7 @@ const PrivateRoute = ({ children }) => {
   const isOtpVerified = localStorage.getItem("isOtpVerified");
 
   if (!user || !user.token || !user.email || !isOtpVerified) {
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/" replace />;
   }
 
   return children;
