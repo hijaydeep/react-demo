@@ -47,31 +47,26 @@ const LeftPanel = () => {
         <FeatureIcon
           imgSrc="/img/left-2.png"
           altText="recitateur"
-          label="Drôle de Récitateur"
           positionClasses="top-1/4 left-1"
         />
         <FeatureIcon
           imgSrc="/img/left-3.png"
           altText="mission"
-          label="Mission Sourate"
           positionClasses="top-[35%] right-1"
         />
         <FeatureIcon
           imgSrc="/img/left-4.png"
           altText="tafsir"
-          label="Tafsir Mystery"
           positionClasses="top-[50%] left-1"
         />
         <FeatureIcon
           imgSrc="/img/left-5.png"
           altText="moushaf"
-          label="Moushaf Décidé"
           positionClasses="top-[65%] right-1"
         />
         <FeatureIcon
           imgSrc="/img/left-6.png"
           altText="blabla"
-          label="Blabla Box"
           positionClasses="top-[80%] left-1"
         />
       </div>
